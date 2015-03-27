@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 public class SimpleCalc extends Activity {
 
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
