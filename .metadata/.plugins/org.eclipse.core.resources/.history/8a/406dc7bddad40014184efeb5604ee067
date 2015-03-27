@@ -1,6 +1,6 @@
 package com.example.itj_assignment1;
 
-import com.example.itj_assignment1.R;
+import android.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -18,13 +18,13 @@ public class SimpleCalc extends Activity {
 		String sOutput = "";
 		
 		//declare variables 
-		int firstNumber = 20;
-		int secondNumber = 10;
+		int FirstNumber = 20;
+		int SecondNumber = 10;
 		
-		sOutput += "FirstNumber + SecondNumber = " + (firstNumber + secondNumber) + "/n";
-		sOutput += "FirstNumber - SecondNumber = " + (firstNumber - secondNumber) + "/n";
-		sOutput += "FirstNumber * SecondNumber = " + (firstNumber * secondNumber) + "/n";
-		sOutput += "FirstNumber / SecondNumber = " + (firstNumber / secondNumber) + "/n";
+		sOutput += "FirstNumber + SecondNumber = " + (FirstNumber + SecondNumber) + "/n";
+		sOutput += "FirstNumber - SecondNumber = " + (FirstNumber - SecondNumber) + "/n";
+		sOutput += "FirstNumber * SecondNumber = " + (FirstNumber * SecondNumber) + "/n";
+		sOutput += "FirstNumber / SecondNumber = " + (FirstNumber / SecondNumber) + "/n";
 		
 		
 		txtOutput.setText(sOutput);

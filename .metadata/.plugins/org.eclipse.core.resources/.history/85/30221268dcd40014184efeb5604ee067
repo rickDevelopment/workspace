@@ -1,6 +1,6 @@
 package com.example.itj_assignment1;
 
-import com.example.itj_assignment1.R;
+import android.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.MenuItem;
