@@ -1,0 +1,60 @@
+package com.example.itj_variables;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.MenuItem;
+import android.widget.TextView;
+
+public class Variables extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_variables);
+		
+		TextView txtOutput = (TextView) findViewById(R.id.txtOutput);
+		String sOutput = "";
+		
+		//declaring variables
+		char capitalC = 'C';
+		int iCount = 0;
+		
+		short a, b, c;
+		a = 10;
+		b = 20;
+		c = 5;
+		
+		String sHello = "Hello";
+		String sWorld = "World";
+		
+		//Pre-fix & Post-fix Examples (increment and decrement) 
+		//+ concatenates
+		sOutput += "iCount = " + iCount + "\n"; //0 - Current value
+		sOutput += "iCount++ = " + (iCount++) + "\n"; //Equal to 0, then increment to 1(Postfix example)
+		sOutput += "iCount = " + iCount + "\n"; // Now Equal to 1
+		sOutput += "++iCount = " + (++iCount) + "\n"; //Equal to 2 (Prefix example)
+		
+		//Order of execution and concatenation Examples
+		sOutput += "a + b = " + a + b + "\n"; //concatenates a+b instead of adding values it sees them as strings Result= 1020
+		sOutput += "a + b = " + (a + b) + "\n";// a + b = 30 (order of operation "()")
+		sOutput += "a + b / c = " + (a + b /c) + "\n"; // 20 / 5 = 4, then 4 + 10 = 14
+		sOutput += "(a + b) / c = " + ((a + b) / c) + "\n"; // 10 + 20 = 30 , then 30 / 5 = 6 
+		
+		
+		txtOutput.setText(sOutput);
+	}
+
+
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle action bar item clicks here. The action bar will
+		// automatically handle clicks on the Home/Up button, so long
+		// as you specify a parent activity in AndroidManifest.xml.
+		int id = item.getItemId();
+		if (id == R.id.action_settings) {
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+}
