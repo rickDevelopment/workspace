@@ -18,13 +18,13 @@ public class SimpleCalc extends Activity {
 		String sOutput = "";
 		
 		//declare variables 
-		int firstNumber = 20;
-		int secondNumber = 10;
+		int firstNumber = 10;
+		int secondNumber = 15;
 		
-		sOutput += "FirstNumber + SecondNumber = " + (firstNumber + secondNumber) + "/n";
-		sOutput += "FirstNumber - SecondNumber = " + (firstNumber - secondNumber) + "/n";
-		sOutput += "FirstNumber * SecondNumber = " + (firstNumber * secondNumber) + "/n";
-		sOutput += "FirstNumber / SecondNumber = " + (firstNumber / secondNumber) + "/n";
+		sOutput += firstNumber + " + " + secondNumber + " = " + (firstNumber + secondNumber) + "\n";
+		sOutput += firstNumber + " - " + secondNumber + " = " + (firstNumber - secondNumber) + "\n";
+		sOutput += firstNumber + " * " + secondNumber + " = " + (firstNumber * secondNumber) + "\n";
+		sOutput += firstNumber + " / " + secondNumber + " = " + (firstNumber / secondNumber) + "\n";
 		
 		
 		txtOutput.setText(sOutput);

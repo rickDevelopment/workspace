@@ -2,8 +2,9 @@
 <workingSetManager>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1427073041367_2" label="Intro-To-Java" name="Intro-To-Java">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/HelloWorldJava" type="4"/>
-<item elementID="=ITJ-Assignment1" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ITJ-Assignment1" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ITJ-Variables" type="4"/>
+<item elementID="=ITJ-OOP" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1427073098469_3" label="Android" name="Android">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/HelloEffects" type="4"/>
