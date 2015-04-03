@@ -15,13 +15,8 @@ public class MainActivity extends Activity {
 		TextView txtOutput = (TextView) findViewById(R.id.txtOutput);
 		String sOut = "";
 		
-		DesktopPC oDesktop1 = new DesktopPC();//Call DesktopPC class to create an instance of desktop PC called oDesktop1
-		oDesktop1.setCpuSpeedMhz(1700);// Using setters to set the CPU speed of oDesktop
-		oDesktop1.setHdSizeMB(500);// Using setters to set the HDD size of oDesktop
-		oDesktop1.setOsName("Windows");// Using setters to set the OS name of oDesktop
-		oDesktop1.setRamInGB(4);// Using setters to set the RAM of oDesktop
-		sOut += oDesktop1.turnPowerOn();//Display turnPowerOn() method from DesktopPC class
-		sOut += oDesktop1.runDiagnostics();//Display runDiagnostics() method from DesktopPC class
+		
+		
 		
 		txtOutput.setText(sOut);
 	}

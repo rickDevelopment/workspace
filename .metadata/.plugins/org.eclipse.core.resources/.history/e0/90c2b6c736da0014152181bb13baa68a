@@ -1,0 +1,42 @@
+package com.example.itj_oop;
+
+public class DesktopPC {
+	
+	private float cpuSpeedMhz = 0;
+	private float hdSizeMB = 0;
+	private int ramInGB = 0;
+	private String osName = "";
+	private boolean isRunning = false;
+	
+	public float getCpuSpeedMhz() {
+		return cpuSpeedMhz;
+	}
+	public void setCpuSpeedMhz(float cpuSpeedMhz) {
+		this.cpuSpeedMhz = cpuSpeedMhz;
+	}
+	public float getHdSizeMB() {
+		return hdSizeMB;
+	}
+	public void setHdSizeMB(float hdSizeMB) {
+		this.hdSizeMB = hdSizeMB;
+	}
+	public int getRamInGB() {
+		return ramInGB;
+	}
+	public void setRamInGB(int ramInGB) {
+		this.ramInGB = ramInGB;
+	}
+	public String getOsName() {
+		return osName;
+	}
+	public void setOsName(String osName) {
+		this.osName = osName;
+	}
+	public boolean getIsRunning() {
+		return isRunning;
+	}
+	public void setIsRunning(boolean isRunning) {
+		this.isRunning = isRunning;
+	}
+
+}
