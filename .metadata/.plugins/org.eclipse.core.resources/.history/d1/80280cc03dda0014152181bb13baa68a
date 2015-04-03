@@ -1,12 +1,12 @@
 package com.example.itj_oop;
 
-public class DesktopPC extends Computer {
-//this inherits the configuration from the abstract computer class 
+public class DesktopPC {
+
 	
 	
 	public String turnPowerOn(){
 		String output = "";
-		output += super.turnPowerOn();
+		setIsRunning(true);
 		output += "Desktop PC is starting up!\n";
 		output += "Bootup Sequence.\n";
 		output += "Ready!\n";
@@ -16,7 +16,7 @@ public class DesktopPC extends Computer {
 	
 	public String turnPowerOff(){
 		String output = "";
-		output += super.turnPowerOff();
+		setIsRunning(false);
 		output += "Desktop PC is Shutting down!\n";
 		output += "Shutdown Sequence.\n";
 		output += "Good Bye!.\n";
