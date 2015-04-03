@@ -6,7 +6,7 @@ public class DesktopPC extends Computer {
 	
 	public String turnPowerOn(){
 		String output = "";
-		output += super.turnPowerOn();//runs turnPowerOff() method from computer class then displays the result by using"super".
+		output += super.turnPowerOn();
 		output += "Desktop PC is starting up!\n";
 		output += "Bootup Sequence.\n";
 		output += "Ready!\n";
@@ -16,14 +16,14 @@ public class DesktopPC extends Computer {
 	
 	public String turnPowerOff(){
 		String output = "";
-		output += super.turnPowerOff(); //runs turnPowerOff() method from computer class then displays the result by using "super".
+		output += super.turnPowerOff();
 		output += "Desktop PC is Shutting down!\n";
 		output += "Shutdown Sequence.\n";
 		output += "Good Bye!.\n";
 		return output;
 		
 	}
-	@Override
+	
 	public String runDiagnostics(){
 		String output = "";
 		output += "================================";
