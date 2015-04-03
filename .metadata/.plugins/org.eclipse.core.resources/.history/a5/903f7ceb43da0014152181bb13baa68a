@@ -23,14 +23,6 @@ public class MainActivity extends Activity {
 		sOut += oDesktop1.turnPowerOn();//Display turnPowerOn() method from DesktopPC class
 		sOut += oDesktop1.runDiagnostics();//Display runDiagnostics() method from DesktopPC class
 		
-		NotebookPC oNote = new NotebookPC();
-		oNote.setCpuSpeedMhz(1200);
-		oNote.setHdSizeMB(250);
-		oNote.setOsName("Windows8");
-		oNote.setRamInGB(2);
-		sOut += oNote.turnPowerOn();
-		sOut += oNote.runDiagnostics();
-		
 		txtOutput.setText(sOut);
 	}
 
