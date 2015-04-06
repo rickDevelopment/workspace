@@ -1,0 +1,11 @@
+package com.example.itj_oop;
+
+public class TabletPC extends Computer implements IComputer {
+
+	@Override
+	public String runDiagnostics() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

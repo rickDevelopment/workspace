@@ -31,11 +31,6 @@ public class MainActivity extends Activity {
 		sOut += oNote.turnPowerOn();
 		sOut += oNote.runDiagnostics();
 		
-		TabletPC oTablet = new TabletPC(1500, 64, 4, "Android");
-		sOut += oTablet.turnPowerOn();
-		sOut += oTablet.turnPowerOff();
-		sOut += oTablet.runDiagnostics();
-		
 		txtOutput.setText(sOut);
 	}
 
