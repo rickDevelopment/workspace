@@ -1,6 +1,6 @@
 package com.example.itj_oop;
 
-public class DesktopPC extends Computer implements IComputer{
+public class DesktopPC extends Computer {
 //this inherits the configuration from the abstract computer class 
 	
 	
