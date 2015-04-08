@@ -17,19 +17,11 @@ public class SimpleCalc extends Activity {
 		TextView txtOutput = (TextView) findViewById(R.id.txtOutput);
 		String sOut = "";
 		
-//		int firstNumber = 10;
-//		int secondNumber = 15;
-//		
-//		sOut += firstNumber + " + " + secondNumber + "=" + (firstNumber + secondNumber) + "\n";
-//		sOut += firstNumber + " - " + secondNumber + "=" + (firstNumber - secondNumber) + "\n";
-//		sOut += firstNumber + " * " + secondNumber + "=" + (firstNumber * secondNumber) + "\n";
-//		sOut += firstNumber + " / " + secondNumber + "=" + (firstNumber / secondNumber) + "\n";
-//		
-//		
-		Calc oCalc1 = new Calc();
-		oCalc1.setFirstNumber(10);
-		oCalc1.setSecondNumber(15);
-		sOut += oCalc1;
+		int firstNumber = 10;
+		int secondNumber = 15;
+		
+		
+		
 		
 		txtOutput.setText(sOut);
 	}
